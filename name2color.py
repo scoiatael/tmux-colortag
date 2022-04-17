@@ -34,7 +34,7 @@ parser.add_argument('--clear', action='store_true')
 parser.add_argument('--show-state', action='store_true')
 args = parser.parse_args()
 
-state_prefix = os.path.expanduser("~/.tmux/plugins/tmux-colortag/state")
+state_prefix = os.path.expanduser("~/.tmux/tmux-colortag-state")
 state = {}
 changed = True
 
